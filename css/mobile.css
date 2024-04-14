@@ -1,0 +1,295 @@
+.mobileHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3vw 7vw 3vw 7vw;
+}
+
+.mobileTextLogo {
+	margin: 0;
+	font-size: 7vw;
+}
+
+.mobilePhoneIcon {
+	padding: 3.4vw;
+	background: #fff;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 50%;
+	width: 3.4vw;
+	box-shadow: 0 0 30px var(--shadow-color);
+	margin-right: 6vw;
+}
+
+.mobilePhoneIcon img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.mobileDiv {
+	padding: 0vw 7vw 0vw 7vw;
+}
+
+.mMainButton {
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 9vw;
+	background: var(--accent-color);
+	padding-left: 2vw;
+	padding-right: 2vw;
+	font-weight: bold;
+	color: var(--shadow-color);
+	font-size: 1vw;
+	box-shadow: inset 0 0 20px var(--shadow-color), 0 1vw 40px var(--accent-color-trnsp);
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.mCicle1 {
+	margin-top: 30vw;
+	margin-left: 30vw;
+	position: absolute;
+	width: 60vw;
+	height: 60vw;
+	box-shadow: 0 0 60px var(--shadow-color);
+	border-radius: 50%;
+}
+
+.mCicle2 {
+	margin-top: 15vw;
+	margin-left: 15vw;
+	position: absolute;
+	width: 90vw;
+	height: 90vw;
+	box-shadow: 0 0 60px var(--shadow-color);
+	border-radius: 50%;
+}
+
+.mCicle3 {
+	position: absolute;
+	width: 120vw;
+	height: 120vw;
+	box-shadow: 0 0 60px var(--shadow-color);
+	border-radius: 50%;
+}
+
+.mCard1 {
+	display: inline-flex;
+	box-shadow: 0 0 30px var(--shadow-color);
+	padding: 5vw 6vw 4vw 6vw;
+	padding-top: 5vw;
+	border-radius: 2vw;
+	align-items: center;
+	background: #fff;
+}
+
+.mCard1data {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0.6vw;
+}
+
+.mCard1 img {
+	padding: 0.6vw;
+}
+
+.mArrowButton {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	padding: 0.6vw;
+	padding-top: calc(0.6vw - 2px);
+	padding-bottom: calc(0.6vw + 2px);
+	width: 14vw;
+	height: 14vw;
+	border-radius: 100%;
+	color: var(--accent-color);
+	box-shadow: 0 0 30px var(--shadow-color);
+	background: #fff;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.mArrowButton::before {
+	content: attr(data-char);
+	font-size: 7vw;
+}
+
+.mButtonHeader {
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 6vw;
+	background: #fff;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	font-weight: bold;
+	color: var(--accent-color);
+	font-size: 3vw;
+	box-shadow: 0 0 30px var(--shadow-color);
+}
+
+.mGrayButtonHeader {
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 6vw;
+	background: #fff;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	font-weight: bold;
+	color: var(--gray-text-color);
+	font-size: 3vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #e9e9e9;
+}
+
+.mUslugi {
+	display: flex;
+	overflow-x: hidden;
+	padding: 30px;
+	position: absolute;
+	left: calc(7vw - 30px);
+}
+
+.mUslugiCard {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 30px var(--shadow-color);
+	border-radius: 0.6vw;
+	width: 55vw;
+	padding-bottom: 4vw;
+}
+
+.mUslugiCardHeader {
+	margin: 0;
+	margin-top: 2vw;
+	font-weight: bold;
+	font-size: 4vw;
+	margin-left: 4vw;
+}
+
+.mUslugiCardDescr {
+	margin: 0;
+	margin-top: 0.7vw;
+	font-size: 2vw;
+	margin-left: 4vw;
+}
+
+.mUslugiCardButtons {
+	display: flex;
+	align-items: center;
+}
+
+.mBabichi {
+	display: flex;
+	overflow-x: hidden;
+	padding: 30px;
+	position: absolute;
+	left: calc(7vw - 30px);
+}
+
+.mBabichiCard {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 30px var(--shadow-color);
+	border-radius: 0.6vw;
+	width: 55vw;
+	padding-bottom: 2vw;
+	background: #fff;
+}
+
+.mBabichiCardHeader {
+	margin: 0;
+	margin-top: 2vw;
+	font-weight: bold;
+	font-size: 2.6vw;
+	margin-left: 4vw;
+}
+
+.mBabichiCardTwoHeader {
+	margin: 0;
+	margin-top: 2vw;
+	font-weight: bold;
+	font-size: 1.6vw;
+	margin-left: 4vw;
+	color: var(--accent-color);
+}
+
+.mBabichiCardDescr {
+	margin: 0;
+	margin-top: 2vw;
+	font-size: 1.8vw;
+	margin-left: 4vw;
+	color: var(--gray-text-color);
+}
+
+.mBabichiButton {
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 8vw;
+	border-style: solid;
+	border-width: 2px;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	font-weight: bold;
+	color: var(--accent-color);
+	font-size: 4vw;
+}
+
+.mPrnz {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1vw;
+	padding: 1vw;
+	width: 10vw;
+	height: 10vw;
+	border-radius: 100%;
+	background: #f9f9f9;
+}
+
+.mOtzButtons {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1vw;
+	padding: 0.7vw;
+	width: 10vw;
+	height: 10vw;
+	border-radius: 100%;
+	background: #fff;
+	box-shadow: 0 0 30px var(--shadow-color);
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.mlCicle1 {
+	margin-top: 30vw;
+	margin-left: 30vw;
+	position: absolute;
+	width: 20vw;
+	height: 20vw;
+	box-shadow: 0 0 60px var(--shadow-color);
+	border-radius: 50%;
+}
+
+.mlCicle2 {
+	margin-top: 15vw;
+	margin-left: 15vw;
+	position: absolute;
+	width: 50vw;
+	height: 50vw;
+	box-shadow: 0 0 60px var(--shadow-color);
+	border-radius: 50%;
+}
+
+.mlCicle3 {
+	position: absolute;
+	width: 80vw;
+	height: 80vw;
+	box-shadow: 0 0 60px var(--shadow-color);
+	border-radius: 50%;
+}

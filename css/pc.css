@@ -1,0 +1,395 @@
+.main1 {
+	width: 70%;
+	margin-top: 2%;
+	margin-left: 15%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.left {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.divider {
+	width: 2px;
+	height: 3vh;
+	background: var(--gray-divider-color);
+}
+
+.center {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.right {
+	display: inline-flex;
+	box-shadow: 0 0 30px var(--shadow-color);
+	border-radius: 2vw;
+	align-items: center;
+	overflow: hidden;
+	padding: 0.6vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	color: var(--gray-text-color);
+}
+
+.imgCicle {
+	height: 100%;
+	box-shadow: 0 0 30px var(--shadow-color);
+	border-radius: 50%;
+	padding: 3%;
+}
+
+.number {
+	display: inline-flex;
+	flex-direction: column;
+	text-align: right;
+	height: 100%;
+	flex-grow: 1;
+	margin-left: 1vw;
+}
+
+.phoneIcon {
+	padding: 0.7vw;
+	background: var(--accent-color);
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 50%;
+	width: 0.8vw;
+}
+
+.phoneIcon img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.textLogo {
+	margin: 16px;
+	margin-right: 1.5vw;
+	font-weight: bold;
+	font-size: 2vw;
+	text-shadow: 0 3px 4px var(--gray-text-color);
+}
+
+.block1 {
+	margin-top: 2vw;
+	display: flex;
+}
+
+.block1Left {
+	display: flex;
+	flex-direction: column;
+}
+
+.mainLogoText {
+	font-weight: bold;
+	font-size: 3vw;
+	margin: 0;
+	margin-top: 3vw;
+	line-height: 4vw;
+}
+
+.mainButton {
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 2vw;
+	background: var(--accent-color);
+	padding-left: 2vw;
+	padding-right: 2vw;
+	font-weight: bold;
+	color: var(--shadow-color);
+	font-size: 1vw;
+	box-shadow: inset 0 0 20px var(--shadow-color);
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.mainButton:hover {
+	box-shadow: inset 0 0 20px var(--shadow-color), 0 1vw 40px var(--accent-color-trnsp);
+}
+
+.card1 {
+	display: inline-flex;
+	box-shadow: 0 0 30px var(--shadow-color);
+	padding: 0.6vw;
+	border-radius: 0.6vw;
+	align-items: center;
+	background: #fff;
+	cursor: pointer;
+}
+
+.card1data {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0.6vw;
+	padding-right: 1.2vw;
+}
+
+.card1 img {
+	padding: 0.6vw;
+}
+
+.arrowButton {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	padding: 0.6vw;
+	padding-top: calc(0.6vw - 2px);
+	padding-bottom: calc(0.6vw + 2px);
+	width: 1vw;
+	height: 1vw;
+	border-radius: 100%;
+	color: var(--accent-color);
+	box-shadow: 0 0 30px var(--shadow-color);
+	background: #fff;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.arrowButton::before {
+	content: attr(data-char);
+	font-size: 2vw;
+}
+
+.arrowButton:hover {
+	box-shadow: 0 0 30px var(--accent-color-trnsp);
+}
+
+.buttonHeader {
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 2vw;
+	background: #fff;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	font-weight: bold;
+	color: var(--accent-color);
+	font-size: 1vw;
+	box-shadow: 0 0 30px var(--shadow-color);
+}
+
+.block2 {
+	padding-top: 2vw;
+}
+
+.uslugi {
+	display: flex;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.uslugiCard {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 30px var(--shadow-color);
+	border-radius: 0.6vw;
+	width: 22.48vw;
+	padding-bottom: 2vw;
+}
+
+.uslugiCardHeader {
+	margin: 0;
+	margin-top: 1vw;
+	font-weight: bold;
+	font-size: 1.8vw;
+	margin-left: 2vw;
+}
+
+.uslugiCardDescr {
+	margin: 0;
+	margin-top: 0.7vw;
+	font-size: 0.8vw;
+	margin-left: 2vw;
+}
+
+.uslugiCardButtons {
+	display: flex;
+	align-items: center;
+}
+
+.block3 {
+	margin-top: 2vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.block3data {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main2 {
+	background: #f5f5f5;
+	width: 80%;
+	margin-left: calc(10% - 3vw);
+	border-radius: 2vw;
+	padding: 2vw;
+	padding-left: 3vw;
+}
+
+.babichi {
+	display: flex;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.babichiCard {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 30px var(--shadow-color);
+	border-radius: 0.6vw;
+	width: 25.75vw;
+	padding-bottom: 2vw;
+	background: #fff;
+}
+
+.babichiCardHeader {
+	margin: 0;
+	margin-top: 1vw;
+	font-weight: bold;
+	font-size: 1vw;
+	margin-left: 2vw;
+}
+
+.babichiCardTwoHeader {
+	margin: 0;
+	margin-top: 0.6vw;
+	font-weight: bold;
+	font-size: 0.8vw;
+	margin-left: 2vw;
+	color: var(--accent-color);
+}
+
+.babichiCardDescr {
+	margin: 0;
+	margin-top: 0.6vw;
+	font-size: 0.8vw;
+	margin-left: 2vw;
+	color: var(--gray-text-color);
+}
+
+.babichiButton {
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 2vw;
+	border-style: solid;
+	border-width: 2px;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	font-weight: bold;
+	color: var(--accent-color);
+	font-size: 0.8vw;
+}
+
+.prnz {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1vw;
+	padding: 1vw;
+	width: 1vw;
+	height: 1vw;
+	border-radius: 100%;
+	background: #f9f9f9;
+}
+
+.otzButtons {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1vw;
+	padding: 0.7vw;
+	width: 1vw;
+	height: 1vw;
+	border-radius: 100%;
+	background: #fff;
+	box-shadow: 0 0 30px var(--shadow-color);
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.otzButtons:hover {
+	box-shadow: 0 0 30px var(--accent-color-trnsp);
+}
+
+.map {
+	background-image: url(../res/map.png);
+	background-size: 100%;
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid var(--accent-color);
+}
+
+.map::before {
+	content: "";
+	position: absolute;
+	top: 61%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: var(--shadow-color);
+	z-index: 1;
+}
+
+.cicle1 {
+	position: absolute;
+	width: 35vw;
+	height: 35vw;
+	border-radius: 50%;
+	box-shadow: 0 0 30px var(--shadow-color);
+	margin-top: 15vw;
+	margin-left: 15vw;
+}
+
+.cicle2 {
+	position: absolute;
+	width: 50vw;
+	height: 50vw;
+	border-radius: 50%;
+	box-shadow: 0 0 30px var(--shadow-color);
+	margin-top: 7.5vw;
+	margin-left: 7.5vw;
+}
+
+.cicle3 {
+	position: absolute;
+	width: 65vw;
+	height: 65vw;
+	border-radius: 50%;
+	box-shadow: 0 0 30px var(--shadow-color);
+}
+
+.mainShadowCicle {
+	width: 65vw;
+	height: 65vw;
+}
+
+.mainShadowCicle::before {
+	content: "";
+	position: absolute;
+	top: 66%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #fcfcfc;
+	z-index: 1;
+}
+
+.girl {
+	width: 25vw;
+	clip-path: circle(51% at 50% 45%);
+}
